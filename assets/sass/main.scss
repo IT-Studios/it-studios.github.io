@@ -7,14 +7,6 @@
 @import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-// Breakpoints.
-
 @include breakpoints(
   (
     xlarge: (
@@ -40,8 +32,6 @@
   )
 );
 
-// Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 html,
 body,
@@ -1926,7 +1916,7 @@ body.is-preload {
       "background-image",
       (
         "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-        'url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80")'
+        'url("../../images/bg.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2057,7 +2047,7 @@ body.landing {
       "background-image",
       (
         "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-        'url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80")'
+        'url("../../images/bg.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2084,7 +2074,7 @@ body.is-mobile {
         "background-image",
         (
           "linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-          'url("../../images/banner.jpg")'
+          'url("../../images/bg.jpg")'
         )
       );
       background-position: center center;
@@ -2096,4 +2086,21 @@ body.is-mobile {
       background-color: darken(_palette(bg), 8);
     }
   }
+}
+
+//New changes
+.google-play{
+  margin-bottom: 0;
+  width: 170px;
+}
+
+.coming-soon > p{
+    max-width: 145px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.email-us{
+  max-width: 300px;
 }
