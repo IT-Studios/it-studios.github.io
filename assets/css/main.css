@@ -188,7 +188,7 @@ input, select, textarea {
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.5em;
 		line-height: 1.75em;
 	}
 
@@ -4017,3 +4017,32 @@ input, select, textarea {
 	.menu-logo > img{
 		width: 90px;
 	}
+
+	.footer-sections{
+		margin:0;
+		padding:0;
+	}
+
+	.footer-sections > li{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+	color:rgb(184, 184, 184);
+	transition: 0.2s ease;
+	cursor:pointer;
+	list-style: none;
+	padding-left:0;
+	}
+	.footer-sections > li:hover{
+		color:white;
+	}
+	.policy-hyperlinks > li >a{
+		border-bottom: rgb(151, 151, 151);
+		border-bottom-style: dotted;
+	}
+	.policy-hyperlinks > li{
+		margin-bottom: 10px;
+	}
+.privacy-subtitle{
+	margin:0 60px;
+}
