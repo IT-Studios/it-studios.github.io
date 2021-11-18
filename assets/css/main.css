@@ -2975,6 +2975,14 @@ input, select, textarea {
 			background-color:#06181dee;
 			backdrop-filter: blur(15px);
 		}
+	
+		.title-section > h2{
+			margin:auto;
+			width: 140px;
+			margin-bottom: 60px;
+			padding-bottom: 15px;
+			border-bottom: 2px solid white;
+		}
 
 		.wrapper.style3 {
 			background-color: #06191f;
@@ -4035,6 +4043,12 @@ input, select, textarea {
 	}
 	.footer-sections > li:hover{
 		color:white;
+	}
+
+	.footer-email{
+		display: inline-flex;
+		font-size: 15px;
+		transform: translateY(-3px);
 	}
 	.policy-hyperlinks > li >a{
 		border-bottom: rgb(151, 151, 151);
